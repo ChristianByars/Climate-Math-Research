@@ -9,6 +9,7 @@ Group project for MATH 586: Climate Mathematics, San Diego State University.
 - Christian Byars
 - Lillian Snyder
 - Jonathan Siegel
+- Alexander Grimes
 
 ## Setup
 
