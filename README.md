@@ -1,0 +1,47 @@
+# Climate Math Research
+
+Quantifying Equilibrium Climate Sensitivity (ECS) using a zero-dimensional energy balance model. This project estimates how much Earth's global mean surface temperature would rise if atmospheric CO2 concentrations were to double, based on observed CO2 and temperature data from 1994–2024.
+
+Group project for MATH 586: Climate Mathematics, San Diego State University.
+
+## Authors
+
+- Christian Byars
+- Lillian Snyder
+- Jonathan Siegel
+
+## Setup
+
+Requires Python 3.12 and [uv](https://docs.astral.sh/uv/).
+
+```bash
+git clone https://github.com/ChristianByars/Climate-Math-Research.git
+cd Climate-Math-Research
+uv sync
+```
+
+## Usage
+
+Run the analysis notebook:
+
+```bash
+uv run jupyter notebook climate_ecs_analysis.ipynb
+```
+
+All figures are saved to the `figures/` directory.
+
+## Project Structure
+
+```
+├── climate_ecs_analysis.ipynb   # Main analysis notebook
+├── co2_mm_mlo.csv               # Mauna Loa CO2 monthly means (1958–2025)
+├── GLB.Ts+dSST.csv              # GISTEMP global temperature anomalies (1880–2025)
+├── figures/                     # Generated figures (PNG)
+├── pyproject.toml               # Project dependencies
+└── uv.lock                     # Dependency lock file
+```
+
+## Data Sources
+
+- **CO2**: NOAA Global Monitoring Laboratory, Mauna Loa monthly mean CO2 concentrations
+- **Temperature**: NASA Goddard Institute for Space Studies (GISTEMP v4), global mean surface temperature anomalies relative to the 1951–1980 baseline
