@@ -31,6 +31,7 @@ Open `climate_ecs_analysis.ipynb` in your preferred IDE and run the cells. All f
 ├── climate_ecs_analysis.ipynb   # Main analysis notebook
 ├── co2_mm_mlo.csv               # Mauna Loa CO2 monthly means (1958–2025)
 ├── GLB.Ts+dSST.csv              # GISTEMP global temperature anomalies (1880–2025)
+├── NOAAGlobalTemp_v6.1.0_...nc  # NOAA GlobalTemp v6.1.0 gridded anomalies (1850–2026)
 ├── figures/                     # Generated figures (PNG)
 ├── pyproject.toml               # Project dependencies
 └── uv.lock                     # Dependency lock file
@@ -40,3 +41,4 @@ Open `climate_ecs_analysis.ipynb` in your preferred IDE and run the cells. All f
 
 - **CO2**: NOAA Global Monitoring Laboratory, Mauna Loa monthly mean CO2 concentrations
 - **Temperature**: NASA Goddard Institute for Space Studies (GISTEMP v4), global mean surface temperature anomalies relative to the 1951–1980 baseline
+- **Temperature (validation)**: NOAA GlobalTemp v6.1.0, gridded global temperature anomalies (ERSSTv6 + GHCNm v4)
