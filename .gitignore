@@ -2,7 +2,6 @@
 __pycache__/
 *.pyc
 figures/*.png
-*.nc
 .DS_Store
 .ipynb_checkpoints/
 .claude
