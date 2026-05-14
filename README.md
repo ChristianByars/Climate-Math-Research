@@ -23,13 +23,7 @@ uv sync
 
 ## Usage
 
-Run the analysis notebook:
-
-```bash
-uv run jupyter notebook climate_ecs_analysis.ipynb
-```
-
-All figures are saved to the `figures/` directory.
+Open `climate_ecs_analysis.ipynb` in your preferred IDE and run the cells. All figures are saved to the `figures/` directory.
 
 ## Project Structure
 
